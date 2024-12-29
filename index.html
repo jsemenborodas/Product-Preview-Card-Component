@@ -19,25 +19,49 @@
 <body>
   <div class="wrapper">
     <main>
-      <article>
-        <section>
-          <figure>
-            <img src="./images/image-product-mobile.jpg" alt="">
+      <article class="product__card">
+        <h1 class="display__none">Card</h1>
+        <section class="image__section">
+          <h2 class="display__none">Section</h2>
+          <figure class="product-image">
+            <img src="./images/image-product-mobile.jpg" alt="mobile-product">
+          </figure>
+          <figure class="desktop-product-image">
+            <img src="./images/image-product-desktop.jpg" alt="desktop-product">
           </figure>
         </section>
+        <div class="section">
+          
+        </div>
+        <section class="description">
+          <h2 class="display__none">Section</h2>
+          <p class="card__heading">Perfume</p>
   
-        <section>
-          Perfume
-  
-          Gabrielle Essence Eau De Parfum
+          <h2>Gabrielle Essence Eau De Parfum</h2>
         
-          A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+          <p class="floral">
+            A floral, solar and voluptuous interpretation composed by Olivier Polge, 
           Perfumer-Creator for the House of CHANEL.
+          </p>
         
-          $149.99
-          $169.99
-        
-          Add to Cart
+          <div class="prices">
+            <p class="price">$149.99</p>
+            <p class="price__before">$169.99</p>
+          </div>
+          <button class="desktop__button">
+            <figure class="buy__button__figure">
+              <img src="./images/icon-cart.svg" alt="cart" class="svg">
+              <figcaption><p class="figcap">Add to Cart</p></figcaption>
+            </figure>
+          </button>
+        </section>
+        <section class="buy__button">
+          <button>
+            <figure class="buy__button__figure">
+              <img src="./images/icon-cart.svg" alt="cart" class="svg">
+              <figcaption><p class="figcap">Add to Cart</p></figcaption>
+            </figure>
+          </button>
         </section>
       </article>
     </main>
