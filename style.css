@@ -144,6 +144,7 @@ button{
     main{
         max-height: 450px;
         min-height: 450px;
+        border-radius: 10px;
     }
 
     .product__card{
@@ -159,6 +160,12 @@ button{
         min-height: 450px;
         object-fit: cover;
     }
+
+    .desktop-product-image img{
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
     .image__section{
         width: 50%;
     }
@@ -196,5 +203,9 @@ button{
     }
     .desktop__button{
         display: block;
+    }
+
+    button:hover{
+        background-color: var(--very-dark-blue);
     }
 }
